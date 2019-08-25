@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.testimonials{
+    min-height: 728px;
+    background: #f1f1f1;
+}
+
+.testimonials__header{
+    margin-top: 133px;
+}
+
+.testimonials__header h1{
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+}
+
+.testimonials__favicon{
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+    margin-bottom: 0px;
+}
+
+.testimonials__icon i{
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+    color: #f34437;
+    font-family: "MaterialIcons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+    margin-bottom: 28px;
+}
+
+.carousel-item p {
+    opacity: 0.8;
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+}
+
+.carousel-item h1 {
+    color: #5dbdfe;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.carousel-foto{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: -28px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    border-radius: 50%;
+    transition: opacity .6s ease;
+}
+
+
+
+@media screen and (max-width:  540px) {
+    div.testimonials__header{
+        margin-top: 20px;
+    }
+ }

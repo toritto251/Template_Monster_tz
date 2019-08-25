@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+.gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+}

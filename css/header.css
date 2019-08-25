@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
+
+/* BUCK UP */
+
+#toTop {
+    border-radius: 50%;
+    opacity: 0.5;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 20px;
+    right: 47px;
+    cursor: pointer;
+    display: none;
+    color: black;
+    font-size: 11px;
+    z-index: 2;
+
+    width: 51px;
+    height: 51px;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+    background-color: #5dbdfe;
+}
+
+#toTop i{
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-family: "MaterialIcons";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 46px;
+}
+
+/* END BUCK UP */
+
+html {
+    scroll-behavior: smooth;
+    }
+
+.header{
+    min-height: 1124px;
+    width: 100%;
+    display: table;
+    /* background: url(../video/video-bg.jpg) no-repeat center; */
+    background-size: cover;
+}
+
+.header__block{
+    display: table-cell;
+}
+
+.header__hr{
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 0.2;
+    margin: 0;
+}
+
+.header__text{
+    text-align: center;
+}
+
+.header__text h3{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;    
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 56px;
+    margin-top: 170px;
+    margin-bottom: 0px;
+}
+
+.header__text h1{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif; 
+    font-size: 112px;
+    font-weight: 300;
+    line-height: 120px;
+    margin-bottom: 0px;
+}
+
+.header__form{
+    margin-top: 149px;
+    display: flex;
+    justify-content: center;
+    height: 315px;
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.3);
+    background-color: #eeefef;
+}
+
+
+
+@media screen and (max-width:  1199px) {
+    div.header__block a{
+
+    }
+}
+
+@media screen and (max-width:  960px) {
+    div.features__rectangle--blue img {
+        right: 183px;
+    }
+}
+
+@media screen and (max-width:  720px) {
+    div.features__rectangle--blue img {
+        right: 100px;
+    }
+}

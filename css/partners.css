@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+.partners{
+    min-height: 440px;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.partners__header{
+    margin-top: 129px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 79px;
+}
+
+
+.parners__header h1 {
+    color: #333333;
+    font-family: 'Lato', sans-serif;    
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.partners__content img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    transition: transform 2s;
+}
+
+.partners__content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+@media screen and (max-width:  540px) {
+    div.partners__header{
+        margin-top: 20px;
+    }
+ }

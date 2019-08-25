@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.latest{
+    min-height: 809px;
+    background: #f1f1f1;
+}
+
+.latest__header{
+    display: flex;
+    justify-content: center;
+    margin-top: 129px;
+    margin-bottom: 0px;
+}
+
+.latest__header h1{
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.latest__text{
+    margin-top: 45px;
+    margin-bottom: 67px;
+    display: flex;
+    justify-content: center;
+}
+
+.latest__text p{
+    text-align: center;
+    opacity: 0.8;
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.latest__content{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.latest__content img:hover{
+    background-image: linear-gradient(to top, rgba(51, 51, 51, 0.6) 0%, rgba(51, 51, 51, 0) 56%, rgba(51, 51, 51, 0) 100%);
+}
+
+.block{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+     padding:20px;
+    display:none;
+}
+
+.latest__fav{
+    position:absolute;
+    top: 0;
+    right:0;
+     padding:20px;
+    display:none;
+}
+
+.latest__fav i{
+    padding: 10px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-family: "MaterialIcons";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 46px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #5dbdfe;
+    border-radius: 50%;
+}
+
+.block h2{
+    color: grey;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 0px;
+}
+
+.block p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 46px;
+}
+
+.block p:hover{
+    cursor: pointer;
+}
+
+.latest__content:hover .block{
+    display:block;
+    background-image: linear-gradient(to top, rgba(51, 51, 51, 0.6) 0%, rgba(51, 51, 51, 0) 56%, rgba(51, 51, 51, 0) 100%);
+    transition: all 1s ease .5s;
+}
+
+.latest__content:hover .latest__fav{
+    display:block;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:  540px) {
+    div.latest__header{
+        margin-top: 20px;
+    }
+ }

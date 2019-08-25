@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+.faq{
+    min-height: 942px;
+    /* background-image: url(../img/faq-bg.png); */
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.faq__header{
+    margin-top: 133px;
+    display: flex;
+    justify-content: center;
+}
+
+.faq__header h1 {
+    margin-bottom: 0px;
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 67px;
+}
+
+
+.accordion {
+    color: #FFF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 46px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #dd3c30;
+    border: none;
+}
+
+.actives, .accordion:hover {
+    background-color: #dd5045;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #dd3c30;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.panel p{
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.accordion:after {
+    content: '\02795';
+    background-color: white;
+    color: #dd3c30;
+    border-radius: 50%;
+    width: 36px;
+    text-align: center;
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+    border: none;
+}
+
+.actives:after {
+    content: "\2796";
+    background-color: white;
+    color: #dd3c30;
+    border-radius: 50%;
+    width: 36px;
+    text-align: center;
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+    border: none;
+}
+
+.card__content{
+    margin-bottom: 23px;
+}
+
+
+
+.parallax { 
+    background-image: url("../img/faq-bg.png");
+  
+    min-height: 942px; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  
+
+@media screen and (max-width:  540px) {
+    div.faq__header{
+        margin-top: 20px;
+    }
+ }

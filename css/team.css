@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.team{
+    min-height: 763px;
+    background-color: #ffffff;
+}
+
+.team__header{
+    margin-top: 133px;
+    margin-bottom: 0px;
+}
+
+.team__header h1{
+    text-align: center;
+    color: #333333;
+    font-family: 'Lato', sans-serif;    
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 0px;
+}
+
+.team__content{
+    margin-top: 72px;
+    text-align: center;
+}
+
+.team__content img{
+    width: 201px;
+    height: 201px;
+    text-align: center;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+.team__content img:hover{
+    filter: none;
+}
+
+.team__content h1{
+    color: #333333;
+    font-family: 'Lato', sans-serif;   
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+
+.team__content span{
+    color: #5dbdfe;
+    font-family: 'Lato', sans-serif;   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.team__content p{
+    opacity: 0.8;
+    color: #333333;
+    font-family: 'Lato', sans-serif;  
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 127px;
+}
+
+
+@media screen and (max-width:  540px) {
+    div.team__header{
+        margin-top: 20px;
+    }
+    div.team__content p{
+        margin-bottom: 20px;
+    }
+    div.team__content{
+        margin-top: 20px;
+    }
+ }
