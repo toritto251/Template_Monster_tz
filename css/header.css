@@ -143,6 +143,9 @@ html {
     div.header__text h3{
         font-size: 20px;
     }
+    div.header__form{
+        width: 330px;
+    }
 }
 
 
