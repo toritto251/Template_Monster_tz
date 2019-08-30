@@ -6,8 +6,8 @@
 }
 
 .testimonials__header{
-    margin-top: 133px;
-}
+    margin-top: 109px;
+    margin-left: 5px;}
 
 .testimonials__header h1{
     color: #333333;
@@ -25,19 +25,29 @@
     margin-bottom: 0px;
 }
 
+
 .testimonials__icon i{
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
-    color: #f34437;
-    font-family: "MaterialIcons";
+    color: white;
+    font-family: "Material Icons";
     font-weight: normal;
     font-style: normal;
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 400;
-    line-height: 24px;
+    margin-left: -50px;
+    margin-top: 9px;
+}
+
+
+.testimonials__icon{
     display: flex;
     justify-content: center;
-    margin-top: 72px;
-    margin-bottom: 28px;
+    margin-top: 48px;
+}
+
+.testimonials__icon img{
+    width: 60px;
+    height: 66px;
 }
 
 .carousel-item p {
@@ -57,13 +67,14 @@
     font-weight: 400;
     line-height: 30px;
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 40px;
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
 
 .carousel-foto{
     display: flex;
     justify-content: center;
+    margin-top: 33px;
 }
 
 .carousel-indicators li {
@@ -87,9 +98,31 @@
 }
 
 
+@media screen and (max-width:  1140px) {
+    div.testimonials__header{
+       margin-top: 90px;
+    }
+ }
+
+
+ @media screen and (max-width:  720px) {
+    div.advantages__header{
+        margin-top: 60px;
+     }
+ }
+
+
 
 @media screen and (max-width:  540px) {
     div.testimonials__header{
         margin-top: 20px;
+    }
+ }
+
+
+
+ @media screen and (max-width:  320px) {
+    div.testimonials__icon {
+        margin-top: 15px;
     }
  }

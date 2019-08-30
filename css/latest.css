@@ -8,7 +8,8 @@
 .latest__header{
     display: flex;
     justify-content: center;
-    margin-top: 129px;
+    margin-top: 117px;
+    margin-left: 5px;
     margin-bottom: 0px;
 }
 
@@ -21,8 +22,8 @@
 }
 
 .latest__text{
-    margin-top: 45px;
-    margin-bottom: 67px;
+    margin-top: 23px;
+    margin-bottom: 45px;
     display: flex;
     justify-content: center;
 }
@@ -72,6 +73,7 @@
     font-family: "MaterialIcons";
     font-size: 24px;
     font-weight: 400;
+    font-style: normal;
     line-height: 46px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
     background-color: #5dbdfe;
@@ -97,14 +99,10 @@
     line-height: 46px;
 }
 
-.block p:hover{
-    cursor: pointer;
-}
 
 .latest__content:hover .block{
     display:block;
-    background-image: linear-gradient(to top, rgba(51, 51, 51, 0.6) 0%, rgba(51, 51, 51, 0) 56%, rgba(51, 51, 51, 0) 100%);
-    transition: all 1s ease .5s;
+   
 }
 
 .latest__content:hover .latest__fav{
@@ -112,10 +110,49 @@
     cursor: pointer;
 }
 
+.latest__content:hover{
+    background-image: linear-gradient(to top, rgba(51, 51, 51, 0.6) 0%, rgba(51, 51, 51, 0) 56%, rgba(51, 51, 51, 0) 100%);
+}
 
+
+
+@media screen and (max-width:  1140px) {
+    div.latest__header{
+       margin-top: 90px;
+    }
+ }
+
+
+ @media screen and (max-width:  720px) {
+    div.latest__header{
+        margin-top: 60px;
+     }
+     div.block{
+         display: block;
+     }
+     div.latest__fav{
+         display: block;
+     }
+ }
 
 @media screen and (max-width:  540px) {
     div.latest__header{
-        margin-top: 20px;
+        margin-top: 40px;
+    }
+    div.block{
+        display: block;
+    }
+    div.latest__fav{
+        display: block;
+    }
+ }
+
+ 
+@media screen and (max-width:  320px) {
+    div.block{
+        display: block;
+    }
+    div.latest__fav{
+        display: block;
     }
  }

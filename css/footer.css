@@ -7,7 +7,8 @@
 }
 
 .footer__header{
-    margin-top: 133px;
+    margin-top: 122px;
+    margin-left: 5px;
     display: flex;
     justify-content: center;
 }
@@ -22,7 +23,7 @@
 }
 
 .footer__content{
-    margin-top: 81px;
+    margin-top: 59px;
     text-align: center;
 }
 .footer__content p{
@@ -33,6 +34,7 @@
     line-height: 34px;
     font-weight: 700;
     margin-bottom: 0px;
+    letter-spacing: 0.7px;
 }
 
 .footer__content span{
@@ -43,6 +45,7 @@
     line-height: 34px;
     font-weight: 400;
     margin-top: 0px;
+    letter-spacing: 0.6px;
 }
 
 .footer__content span a{
@@ -56,7 +59,7 @@
 }
 
 .footer__fav{
-    margin-top: 66px;
+    margin-top: 61px;
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
@@ -65,15 +68,23 @@
 .nav__icon{
     border-radius: 50%;
     background: white;
-    padding: 12px;
-    margin-right: 20px;
     cursor: pointer;
+    width: 51px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 14px;    
+    font-size: 20px;
+}
+
+.nav li{
+    margin-right: 15px;
 }
 
 .nav__icon--facebook {
     background-color: #3b579d;
     color: white;
-    width: 37px;
 }
 
 .nav__icon--facebook:hover {
@@ -116,16 +127,31 @@
     text-align: center;
 }
 
-.map{
-    position: relative;
+#map{
     width: 100%;
-    z-index: 1;
+    min-height: 440px;
 }
 
 
 
+
+@media screen and (max-width:  1140px) {
+    div.footer__header{
+       margin-top: 90px;
+    }
+ }
+
+ 
+
+ @media screen and (max-width:  720px) {
+    div.footer__header{
+        margin-top: 60px;
+     }
+ }
+
+
 @media screen and (max-width:  540px) {
     div.footer__header{
-        margin-top: 20px;
+        margin-top: 40px;
     }
  }

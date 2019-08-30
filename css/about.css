@@ -8,7 +8,8 @@
  }
 
  .about__header{
-     margin-top: 131px;
+   margin-top: 118px;
+   margin-left: 4px;
     text-align: center;
  }
 
@@ -22,9 +23,12 @@
  }
 
  .about__text{
-    display: flex;
-    justify-content: center;
-    margin-top: 49px;
+   display: flex;
+   justify-content: center;
+   margin-top: 29px;
+   letter-spacing: 0.2px;
+   word-spacing: 0.2px;
+   margin-left: 8px;
  }
 
  .about__text p{
@@ -35,30 +39,35 @@
      font-size: 20px;
      line-height: 34px;
      margin-bottom: 0px;
+     margin-bottom: 6px;
  }
 
  .about__content{
-     margin-top: 65px;
+     margin-top: 54px;
      display: flex;
      flex-direction: row;
  }
 
  .about__elipse{
-    display: flex;
-    flex-direction: row;
-    height: 16%;
+   display: flex;
+   flex-direction: row;
+   background-color: #5dbdfe;
+   border-radius: 50%;
+   width: 91px;
+   height: 90px;
+   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+   flex-shrink: 0;
  }
 
 
  .about__elipse i {
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
-    color: #ffffff;
-    font-family: "MaterialIcons";
-    font-size: 49px;
-    font-weight: 400;
-    background-color: #5dbdfe;
-    border-radius: 50%;
-    padding: 10px;
+   color: #ffffff;
+   font-style: normal;
+   font-family: "MaterialIcons";
+   font-size: 49px;
+   border-radius: 50%;
+   margin-top: 8px;
+   margin-left: 21px;
  }
 
  .about__elipse--h2 h2{
@@ -82,9 +91,31 @@
     margin-left: 23px;
  }
 
+ .about__content--last{
+   margin-bottom: 50px;
+}
  
+ @media screen and (max-width:  1140px) {
+   div.about__header{
+      margin-top: 90px;
+   }
+   /* div.about__content--last{
+      margin-bottom: 50px;
+   } */
+}
+
+
+@media screen and (max-width:  720px) {
+   div.about__content{
+      margin-top: 30px;
+   }
+}
+
 @media screen and (max-width:  540px) {
    div.about__header{
-      margin-top: 20px;
+      margin-top: 40px;
+   }
+   div.about__content{
+      margin-top: 30px;
    }
 }

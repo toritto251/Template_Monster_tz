@@ -9,6 +9,45 @@
     margin-top: 72px;
 }
 
+
+.features__header{
+    margin-top: 106px;
+    margin-left: 12px;
+     text-align: center;
+  }
+ 
+  .features__header h1{
+     color: #333333;
+     font-family: 'Lato', sans-serif;
+     font-size: 45px;
+     font-weight: 400;
+     line-height: 60px;
+     margin-bottom: 0px;
+  }
+ 
+
+  .features__text{
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.2px;
+    margin-left: 8px;
+  }
+ 
+  .features__text p{
+      text-align: center;
+      opacity: 0.8;
+      color: #333333;
+      font-family: 'Lato', sans-serif;    
+      font-size: 20px;
+      line-height: 34px;
+      margin-bottom: 0px;
+      letter-spacing: 0.3px;
+      word-spacing: 0.6px;
+  }
+ 
+
 .features_favicon{
     width: 100%;
 }
@@ -22,18 +61,18 @@
     font-size: 70px;
     font-weight: 400;
     line-height: 70px;
+    font-style: normal;
 }
 
 .features__favicon i:hover{
     color: #690f0f;
-    cursor: pointer;
 }
 
-.features__text{
+.features__card{
     margin-left: 39px;
 }
 
-.features__text h1 {
+.features__card h1 {
     color: #333333;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
@@ -41,7 +80,7 @@
     line-height: 46px;
 }
 
-.features__text p{
+.features__card p{
     opacity: 0.8;
     color: #333333;
     font-family: 'Lato', sans-serif;
@@ -89,10 +128,45 @@
 
 
 
-@media screen and (max-width:  1200px) {
+@media screen and (max-width:  1140px) {
     div.features__rectangle img{
         max-height: 594px;
       } 
+      div.features__header{
+        margin-top: 90px;
+     }
  }
 
  
+
+ @media screen and (max-width:  960px) {
+    div.features__rectangle--blue img {
+        right: 183px;
+    }
+}
+
+@media screen and (max-width:  720px) {
+    div.features__rectangle--blue img {
+        right: 100px;
+    }
+}
+
+
+@media screen and (max-width:  540px) {
+    div.features__header{
+       margin-top: 40px;
+    }
+ }
+
+ 
+@media screen and (max-width:  320px) {
+    div.features__rectangle img {
+        width: 80%;
+    }
+    div.features__rectangle--blue {
+      height: 341px;
+    }
+    div.features__rectangle--red {
+        height: 341px;
+    }
+}

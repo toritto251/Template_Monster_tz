@@ -10,6 +10,7 @@
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/fonts.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/about.css">
@@ -19,13 +20,14 @@
     <link rel="stylesheet" href="./css/team.css">
     <link rel="stylesheet" href="./css/faq.css">
     <link rel="stylesheet" href="./css/how.css">
+    <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/foto.css">
     <link rel="stylesheet" href="./css/latest.css">
     <link rel="stylesheet" href="./css/partners.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet/scss" href="./css/default.scss">
-    <link rel="stylesheet/scss" href="./css/mixins.scss">
-    <link rel="stylesheet/scss" href="./css/vars.scss">
+    <!-- <link rel="stylesheet/scss" href="./css/default.scss"> -->
+    <!-- <link rel="stylesheet/scss" href="./css/mixins.scss"> -->
+    <!-- <link rel="stylesheet/scss" href="./css/vars.scss"> -->
     <!-- add icons -->
     <link rel="stylesheet" href="./plugins/fontawesome-free-5.10.2-web/css/fontawesome/all.min.css">
     <!-- bootstrap -->
@@ -95,27 +97,28 @@
                             </h1>
                         </div>
                     </div>
-                    <div class="col-4"></div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="header__form">
-                            <form>
-                                <div class="form-group form-group--margin">
-                                    <input class="form-control form-control-lg" type="text" placeholder="Full name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control form-control-lg"
-                                        id="exampleFormControlInput1" placeholder="E-mail">
-                                </div>
-                                <div class="form-group">
-                                    <input type="phone" class="form-control form-control-lg"
-                                        id="exampleFormControlInput1" placeholder="Phone">
-                                </div>
-                                <button type="submit" class="btn btn-primary btn-lg header__btn">Get Started
-                                    Now!</button>
-                            </form>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="header__content">
+
+                            <div class="header__form">
+                                <form>
+                                    <div class="form-group form-group--margin">
+                                        <input class="form-control form-control-lg" type="text" placeholder="Full name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control form-control-lg"
+                                            id="exampleFormControlInput1" placeholder="E-mail">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="phone" class="form-control form-control-lg"
+                                            id="exampleFormControlInput1" placeholder="Phone">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-lg header__btn">Get Started
+                                        Now!</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-4"></div>
                 </div>
             </div>
         </div>
@@ -190,7 +193,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="about__content">
+                    <div class="about__content about__content--last">
                         <div class="about__elipse">
                             <i></i>
                         </div>
@@ -214,7 +217,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="about__header">
+                    <div class="features__header">
                         <h1>
                             Features
                         </h1>
@@ -222,7 +225,7 @@
 
                 </div>
                 <div class="col-12">
-                    <div class="about__text">
+                    <div class="features__text">
                         <p>
                             Lorem ipsum dolor sit amet, cetero temporibus ex nec. Et facilisis definiebas est, nec et
                             autem impetus <br> oportere, vim te exerci noster omnium. Habeo dicam vim at, sale possit
@@ -240,7 +243,7 @@
                                     <div class="features__favicon">
                                         <i></i>
                                     </div>
-                                    <div class="features__text">
+                                    <div class="features__card">
                                         <h1>
                                             Instant Skins Switcher
                                         </h1>
@@ -257,7 +260,7 @@
                                     <div class="features__favicon">
                                         <i></i>
                                     </div>
-                                    <div class="features__text">
+                                    <div class="features__card">
                                         <h1>
                                             Various Scripts Included
                                         </h1>
@@ -273,7 +276,7 @@
                                     <div class="features__favicon">
                                         <i></i>
                                     </div>
-                                    <div class="features__text">
+                                    <div class="features__card">
                                         <h1>
                                             Fully Responsive Design
                                         </h1>
@@ -309,7 +312,7 @@
                         <h1>
                             Advantages
                         </h1>
-                        <div class="col-10 offset-1">
+                        <div class="offset-1 col-10">
                             <div class="advantages__text">
                                 <p>
                                     Lorem ipsum dolor sit amet, cetero temporibus ex nec. Et facilisis definiebas est,
@@ -324,93 +327,102 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 col-xl-3 col-md-6 col-lg-4">
-                    <div class="advantages__card">
-                        <div class="advantages__eclipse">
-                            <span>1. </span>
+
+                    <div class="advantages__content">
+                        <div class="advantages__card"></div>
+
+                        <div class="advantages__slide">
+                            <h1> Cu tantas platonem </h1>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
                         </div>
-                    </div>
-                    <div class="advantages__slide">
-                        <h1> Cu tantas platonem </h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+
                     </div>
                 </div>
                 <div class="col-sm-12 col-xl-3 col-md-6 col-lg-4">
-                    <div class="advantages__card">
-                        <div class="advantages__eclipse">
-                            <span>2. </span>
+
+                    <div class="advantages__content">
+                        <div class="advantages__card"></div>
+
+                        <div class="advantages__slide">
+                            <h1> Cu tantas platonem </h1>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
                         </div>
-                    </div>
-                    <div class="advantages__slide">
-                        <h1> Aperiam suscipiantur </h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+
                     </div>
                 </div>
                 <div class="col-sm-12 col-xl-3 col-md-6 col-lg-4">
-                    <div class="advantages__card">
-                        <div class="advantages__eclipse">
-                            <span>3. </span>
+
+                    <div class="advantages__content">
+                        <div class="advantages__card"></div>
+
+                        <div class="advantages__slide">
+                            <h1> Cu tantas platonem </h1>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
                         </div>
-                    </div>
-                    <div class="advantages__slide">
-                        <h1> Nusquam facilisis </h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+
                     </div>
                 </div>
                 <div class="col-sm-12 col-xl-3 col-md-6 col-lg-4">
-                    <div class="advantages__card">
-                        <div class="advantages__eclipse">
-                            <span>4. </span>
+
+                    <div class="advantages__content">
+                        <div class="advantages__card"></div>
+
+                        <div class="advantages__slide">
+                            <h1> Cu tantas platonem </h1>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
                         </div>
-                    </div>
-                    <div class="advantages__slide">
-                        <h1> Ex vel legimus </h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+
                     </div>
                 </div>
                 <div class="col-sm-12 col-xl-3 col-md-6 col-lg-4">
-                    <div class="advantages__card">
-                        <div class="advantages__eclipse">
-                            <span>5. </span>
+
+                    <div class="advantages__content">
+                        <div class="advantages__card"></div>
+
+                        <div class="advantages__slide">
+                            <h1> Cu tantas platonem </h1>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
                         </div>
-                    </div>
-                    <div class="advantages__slide">
-                        <h1> Nusquam facilisis </h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+
                     </div>
                 </div>
                 <div class="col-sm-12 col-xl-3 col-md-6 col-lg-4">
-                    <div class="advantages__card">
-                        <div class="advantages__eclipse">
-                            <span>6. </span>
+
+                    <div class="advantages__content">
+                        <div class="advantages__card"></div>
+
+                        <div class="advantages__slide">
+                            <h1> Cu tantas platonem </h1>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
                         </div>
-                    </div>
-                    <div class="advantages__slide ">
-                        <h1> Ex vel legimus </h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+
                     </div>
                 </div>
                 <div class="col-sm-12 col-xl-3 col-md-6 col-lg-4">
-                    <div class="advantages__card">
-                        <div class="advantages__eclipse">
-                            <span>7. </span>
+
+                    <div class="advantages__content">
+                        <div class="advantages__card"></div>
+
+                        <div class="advantages__slide">
+                            <h1> Cu tantas platonem </h1>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
                         </div>
-                    </div>
-                    <div class="advantages__slide">
-                        <h1> Aperiam suscipiantur </h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+
                     </div>
                 </div>
                 <div class="col-sm-12 col-xl-3 col-md-6 col-lg-4">
-                    <div class="advantages__card">
-                        <div class="advantages__eclipse">
-                            <span>8. </span>
+
+                    <div class="advantages__content">
+                        <div class="advantages__card"></div>
+
+                        <div class="advantages__slide advantages__slide--margin-bottom">
+                            <h1> Cu tantas platonem </h1>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
                         </div>
-                    </div>
-                    <div class="advantages__slide advantages__slide--margin-bottom">
-                        <h1> Cu tantas platonem </h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -427,10 +439,8 @@
                             Testimonials
                         </h1>
                     </div>
-                    <div class="testimonials__icon">
-                        <i>  </i>
-                    </div>
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+                        data-interval="3000">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -438,10 +448,19 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <p style="margin-top: 27px">
-                                    Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo essent
-                                    hendrerit ut, mel cu oblique eripuit maiestatis.
-                                </p>
+                                <div class="testimonials__icon">
+                                    <img src="./img/icons8-speech-24.png" alt="">
+                                    <i class="material-icons">
+                                        format_quote
+                                    </i>
+                                </div>
+                                <div class="offset-2 col-8">
+                                    <p style="margin-top: 27px">
+                                        Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo essent
+                                        hendrerit ut, mel cu oblique eripuit maiestatis.
+                                    </p>
+
+                                </div>
                                 <div class="carousel-foto">
                                     <img src="./img/testimonials-slide1.png" class="d-block w-10" alt="...">
                                 </div>
@@ -450,10 +469,19 @@
                                 </h1>
                             </div>
                             <div class="carousel-item">
-                                <p style="margin-top: 27px">
-                                    Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo essent
-                                    hendrerit ut, mel cu oblique eripuit maiestatis.
-                                </p>
+                                <div class="testimonials__icon">
+                                    <img src="./img/icons8-speech-24.png" alt="">
+                                    <i class="material-icons">
+                                        format_quote
+                                    </i>
+                                </div>
+                                <div class="offset-2 col-8">
+                                    <p style="margin-top: 27px">
+                                        Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo essent
+                                        hendrerit ut, mel cu oblique eripuit maiestatis.
+                                    </p>
+
+                                </div>
                                 <div class="carousel-foto">
                                     <img src="./img/testimonials-slide2.jpg" class="d-block w-10" alt="...">
                                 </div>
@@ -462,10 +490,19 @@
                                 </h1>
                             </div>
                             <div class="carousel-item">
-                                <p style="margin-top: 27px">
-                                    Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo essent
-                                    hendrerit ut, mel cu oblique eripuit maiestatis.
-                                </p>
+                                <div class="testimonials__icon">
+                                    <img src="./img/icons8-speech-24.png" alt="">
+                                    <i class="material-icons">
+                                        format_quote
+                                    </i>
+                                </div>
+                                <div class="offset-2 col-8">
+                                    <p style="margin-top: 27px">
+                                        Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo essent
+                                        hendrerit ut, mel cu oblique eripuit maiestatis.
+                                    </p>
+
+                                </div>
                                 <div class="carousel-foto">
                                     <img src="./img/testimonials-slide3.jpg" class="d-block w-10" alt="...">
                                 </div>
@@ -573,7 +610,13 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
                         <div class="card__content">
-                            <button class="accordion">Tempor incididunt</button>
+                            <button class="accordion">Tempor incididunt
+                                <div class="accordion__fav">
+                                    <i class="material-icons">
+                                        add
+                                    </i>
+                                </div>
+                            </button>
                             <div class="panel">
                                 <p>
                                     Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
@@ -582,7 +625,13 @@
                             </div>
                         </div>
                         <div class="card__content">
-                            <button class="accordion">Eiusmod tempor</button>
+                            <button class="accordion">Eiusmod tempor
+                                <div class="accordion__fav">
+                                    <i class="material-icons">
+                                        add
+                                    </i>
+                                </div>
+                            </button>
                             <div class="panel">
                                 <p>
                                     Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
@@ -591,36 +640,13 @@
                             </div>
                         </div>
                         <div class="card__content">
-                            <button class="accordion">Incididunt ut labore</button>
-                            <div class="panel">
-                                <p>
-                                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
-                        <div class="card__content">
-                            <button class="accordion">Esse cillum</button>
-                            <div class="panel">
-                                <p>
-                                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card__content">
-                            <button class="accordion">Dolore eu fugiat</button>
-                            <div class="panel">
-                                <p>
-                                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card__content">
-                            <button class="accordion">Bulla pariatu</button>
+                            <button class="accordion">Incididunt ut labore
+                                <div class="accordion__fav">
+                                    <i class="material-icons">
+                                        add
+                                    </i>
+                                </div>
+                            </button>
                             <div class="panel">
                                 <p>
                                     Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
@@ -631,7 +657,13 @@
                     </div>
                     <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
                         <div class="card__content">
-                            <button class="accordion">Eiusmod tempor</button>
+                            <button class="accordion">Esse cillum
+                                <div class="accordion__fav">
+                                    <i class="material-icons">
+                                        add
+                                    </i>
+                                </div>
+                            </button>
                             <div class="panel">
                                 <p>
                                     Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
@@ -640,7 +672,13 @@
                             </div>
                         </div>
                         <div class="card__content">
-                            <button class="accordion">Incididunt ut labore</button>
+                            <button class="accordion">Dolore eu fugiat
+                                <div class="accordion__fav">
+                                    <i class="material-icons">
+                                        add
+                                    </i>
+                                </div>
+                            </button>
                             <div class="panel">
                                 <p>
                                     Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
@@ -649,7 +687,60 @@
                             </div>
                         </div>
                         <div class="card__content">
-                            <button class="accordion">Esse cillum</button>
+                            <button class="accordion">Bulla pariatu
+                                <div class="accordion__fav">
+                                    <i class="material-icons">
+                                        add
+                                    </i>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>
+                                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
+                        <div class="card__content">
+                            <button class="accordion">Eiusmod tempor
+                                <div class="accordion__fav">
+                                    <i class="material-icons">
+                                        add
+                                    </i>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>
+                                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__content">
+                            <button class="accordion">Incididunt ut labore
+                                <div class="accordion__fav">
+                                    <i class="material-icons">
+                                        add
+                                    </i>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>
+                                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__content">
+                            <button class="accordion">Esse cillum
+                                <div class="accordion__fav">
+                                    <i class="material-icons">
+                                        add
+                                    </i>
+                                </div>
+                            </button>
                             <div class="panel">
                                 <p>
                                     Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
@@ -788,7 +879,7 @@
                         <img src="./img/partners02.png" alt="">
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div class="partners__content">
                         <img src="./img/partners03.png" alt="">
                     </div>
@@ -847,11 +938,8 @@
 
     <!-- MAP -->
 
-    <div class="map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71480.77858868039!2d-73.89839743836016!3d40.69189105053602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1566685310653!5m2!1sru!2sua"
-            width="100%" height="440" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        <i>  </i>
+    <div id="map">
+
     </div>
 
 
@@ -874,7 +962,13 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWf0BfdVaLqTX0PvCQ6MApgEy7euqESj8&callback=initMap">
+    </script>
+
     <script src="./js/main.js"></script>
+
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
