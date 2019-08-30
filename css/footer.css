@@ -122,17 +122,6 @@
     z-index: 1;
 }
 
-.map i{
-    color: black;
-    font-family: "MaterialIcons";
-    font-size: 72px;
-    font-weight: 400;
-    line-height: 34px;
-    position: absolute;
-    top: 164px;
-    right: 727px; 
-}
-
 
 
 @media screen and (max-width:  540px) {

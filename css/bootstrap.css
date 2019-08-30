@@ -104,10 +104,6 @@
         margin-bottom: 0px;
     }
     div.header__block a span{
-        font-size: 15px;
-    }
-    div.header__text h1{
         font-size: 20px;
-        line-height: 63px;
     }
 }
